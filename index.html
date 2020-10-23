@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"/>
+
+    <link rel="shortcut icon" href="img/favicon_io/favicon.ico" type="image/x-icon">
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Quoty</title>
+
+  </head>
+  <body>
+    <div class="app">
+      <div class="app-text">
+        <header class="app-header">
+          <button class="quote-btn" onclick="quoteGenerator()">Random <i class="material-icons">autorenew</i></button>
+        </header>
+
+        <div class="quote-container" id="quote-container">
+          <div class="author-quotes"></div>
+          <blockquote>
+            <button class="copy-btn" data-clipboard-target=".quote-text">
+              <i class="material-icons">content_copy</i>
+            </button>
+            <q class="quote-text">Loading...</q>
+          </blockquote>
+          <div class="author" id="author" onclick="quoteByAuthor()">
+            <p class="quote-author">Be patient please :3</p>
+            <p class="quote-genre"></p>
+            <div class="more-arrow"><i class="material-icons">trending_flat</i></div>
+          </div>
+        </div>
+
+        <div class="by-author" id="by-author">
+        </div>
+    </div>
+
+    <footer>
+      <p>Rafael Olivares @ Devchallenges.io</p>
+    </footer>
+    <script src="js/library/clipboard.js-master/clipboard.js-master/dist/clipboard.min.js"></script>
+    <script src="js/library/js-toast-master/toast.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

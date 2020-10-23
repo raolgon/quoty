@@ -1,0 +1,116 @@
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+ul {
+    padding-left: 24px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.app {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.app-text {
+    margin-top: 10vh;
+    font-weight: 500;
+}
+
+/* .app-text p {
+    font-size: 1rem;
+    font-weight: 400;
+} */
+
+.app-text h1 {
+    font-size: 1.5rem;
+}
+
+.app-text a {
+    color: #f7542e;
+}
+
+.app-header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*Random button*/
+.quote-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 1.1rem;
+    outline: none;
+    justify-content: center;
+}
+
+.quote-btn:hover {
+    cursor: pointer;
+}
+/*Quotes*/
+
+blockquote {
+    border-left: 8px solid #F7DF94;
+    padding-left: 99px;
+    margin: 70px 0;
+}
+
+.quote-text {
+    font-size: 2.25rem;
+}
+
+.copy-btn {
+    overflow: hidden;
+    opacity: 0;
+    display: flex;
+    justify-content: flex-end;
+    transition: .5s all ease-in-out;
+}
+
+blockquote:hover .copy-btn {
+    opacity: 100;
+}
+
+.author {
+    padding: 25px 10px 25px 99px;
+}
+
+.author:hover {
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    transition: .3s all ease-in-out;
+}
+
+.quote-author, .author-quotes {
+    font-size: 1.5rem;
+}
+
+.author-quotes {
+    padding-left: 99px;
+}
+
+.quote-genre {
+    color: #828282;
+}
+
+.more-arrow {
+    opacity: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.author:hover .more-arrow {
+    opacity: 100;
+}
+
+/*Footer*/
+
+footer {
+    font-size: .87rem;
+    color: #A9A9A9;
+    text-align: center;
+}

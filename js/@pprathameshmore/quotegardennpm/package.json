@@ -1,0 +1,57 @@
+{
+  "_from": "github:pprathameshmore/quotegardennpm",
+  "_id": "@pprathameshmore/quotegardennpm@1.1.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/@pprathameshmore/quotegardennpm",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "pprathameshmore/quotegardennpm",
+    "rawSpec": "pprathameshmore/quotegardennpm",
+    "saveSpec": "github:pprathameshmore/quotegardennpm",
+    "fetchSpec": null,
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "github:pprathameshmore/quotegardennpm#0e57843a2ed38a9ba107e06f552f9cd3071158fd",
+  "_spec": "pprathameshmore/quotegardennpm",
+  "_where": "C:\\Users\\rafao\\OneDrive\\Documents\\quote-generator-master",
+  "author": {
+    "name": "Prathamesh More"
+  },
+  "bugs": {
+    "url": "https://github.com/pprathameshmore/QuoteGardenNPM/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "deprecated": false,
+  "description": "A NPM Package for quotes. The database currently includes more than 75000 quotes.",
+  "homepage": "https://github.com/pprathameshmore/QuoteGardenNPM",
+  "keywords": [
+    "quotegarden",
+    "quotes",
+    "freequotes",
+    "quotesapi",
+    "quotesrandom"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@pprathameshmore/quotegardennpm",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/pprathameshmore"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pprathameshmore/QuoteGardenNPM.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.0"
+}
