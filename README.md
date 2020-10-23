@@ -2,19 +2,17 @@
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
-   <p align="center">
-  <img alt="GitHub" src="https://img.shields.io/github/license/vitogd/quote-generator.svg">
-</p>
+
 </div>
 
 <div align="center">
   <h3>
-    <a href="#">
-      Demo TODO
+    <a href="https://quoty.netlify.app/">
+      Demo
     </a>
     <span> | </span>
-    <a href="#">
-      Solution TODO
+    <a href="https://github.com/raolgon/quoty">
+      Solution
     </a>
     <span> | </span>
     <a href="https://devchallenges.io/challenges/8Y3J4ucAMQpSnYTwwWW8">
@@ -32,7 +30,6 @@ ___
 - [Overview](##overview)
   - [Built With](##built-with)
 - [Features](##features)
-- [How to use](##how-to-use)
 - [Contact](##contact)
 - [Acknowledgements](##Acknowledgements)
 
@@ -40,11 +37,7 @@ ___
 
 ## Overview
 
-![screenshot](.github/screenshot.png)
-
-<p align="center">
-
-</p>
+![screenshot](img/quoty_capture.png)
 
 ___
 
@@ -54,7 +47,8 @@ ___
 - CSS
 - JavaScript
 
-### Libraries
+### :books: Libraries
+
 - ClipboardJS
 - Toast.js
 
@@ -64,22 +58,7 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 Includes a copy the quote function and a toast message just for fun.
 
-## How To Use
 
-<!-- For example: -->
-
-To clone and run this application, you'll need [Git](https://git-scm.com) installed on your computer. From your command line:
-
-```bash
-# Clone this repository
-$ git clone https://github.com/raolgon/quoty.git
-
-# Goto index.html directory
-$ cd quoty
-
-# Start with chrome
-$ start chrome index.html
-```
 
 ## Acknowledgements
 
@@ -91,9 +70,6 @@ $ start chrome index.html
 
 - GitHub [@raolgon](https://github.com/raolgon)
 - Twitter [@Rafa_Oli](https://twitter.com/RafaOlivares77)
-
-## :memo: License
-
-This project is under the MIT license. See the [LICENSE](https://github.com/vitogd/quote-generator/blob/master/LICENSE) for more information.
+- Discord yotta#8564
 
 ___
